@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://account.prusa3d.com/login/')
 
-WebUI.setText(findTestObject('HansDelbruck/Page_Prusa Account/input_(required)_password'), findTestData('Neurons/Ganglia').getValue(
-        1, 1))
+WebUI.setText(findTestObject('Object Repository/HansDelbruck/Page_Prusa Account/input_(required)_email'), 'jayleefagen@gmail.com')
 
-WebUI.setText(findTestObject('HansDelbruck/Page_Prusa Account/input_(required)_password', [('pword') : findTestData('Neurons/Ganglia').getValue(
-                2, 1)]), findTestData('Neurons/Ganglia').getValue(2, 1))
+WebUI.setEncryptedText(findTestObject('Object Repository/HansDelbruck/Page_Prusa Account/input_(required)_password'), 'tOq9yGuIO22xm2U+tP5Ayw==')
 
 WebUI.click(findTestObject('Object Repository/HansDelbruck/Page_Prusa Account/button_Log in'))
 
