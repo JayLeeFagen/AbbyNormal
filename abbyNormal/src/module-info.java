@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author jayle
- *
- */
-module abbyNormal {
-}
