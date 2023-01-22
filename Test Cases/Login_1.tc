@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Break into the Brain Depositary
+LOGIN>Parts Page>LOGOUT</description>
+   <name>Login_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3f0bcb0-4ec3-460f-87fe-9b70a23559e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2232e327-b3e0-4d87-a514-8d37c0ad32a6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6765c49-ed3f-48f5-8979-0e654de5242b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77156107-cd8d-40e4-a12c-4b18bb965ef0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1da45ae-d14a-4bad-9c0e-a5ab02263bda</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eddfacdd-8d76-49f4-8099-ea3f9634ee87</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Ganglia').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2232e327-b3e0-4d87-a514-8d37c0ad32a6</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Ganglia').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>b6765c49-ed3f-48f5-8979-0e654de5242b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Ganglia').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>77156107-cd8d-40e4-a12c-4b18bb965ef0</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1da45ae-d14a-4bad-9c0e-a5ab02263bda</id>
+      <masked>false</masked>
+      <name>model_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eddfacdd-8d76-49f4-8099-ea3f9634ee87</id>
+      <masked>false</masked>
+      <name>model_2</name>
+   </variable>
+</TestCaseEntity>
