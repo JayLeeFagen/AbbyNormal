@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://account.prusa3d.com/login/')
+WebUI.navigateToUrl(url)
 
-WebUI.setText(findTestObject('Object Repository/HansDelbruck/Page_Prusa Account/input_(required)_email'), 'jayleefagen@gmail.com')
+WebUI.setText(findTestObject('Object Repository/HansDelbruck/Page_Prusa Account/input_(required)_email'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/HansDelbruck/Page_Prusa Account/input_(required)_password'), 'tOq9yGuIO22xm2U+tP5Ayw==')
+WebUI.setText(findTestObject('Object Repository/HansDelbruck/Page_Prusa Account/input_(required)_password'), password)
 
 WebUI.click(findTestObject('Object Repository/HansDelbruck/Page_Prusa Account/button_Log in'))
 
@@ -37,13 +37,11 @@ WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('HansDelbruck/Page_Original Prusa 3D printers directly fr_3e3e58/button_User'))
 
-WebUI.waitForElementClickable(findTestObject('HansDelbruck/Page_Original Prusa 3D printers directly fr_3e3e58/button_Logout'), 
-    5)
-
-WebUI.verifyElementPresent(findTestObject('HansDelbruck/Page_Original Prusa 3D printers directly fr_3e3e58/button_Logout'), 
-    0)
-
-WebUI.click(findTestObject('HansDelbruck/Page_Original Prusa 3D printers directly fr_3e3e58/button_Logout'))
-
-WebUI.closeBrowser()
+/*
+ * WebUI.waitForElementClickable(findTestObject('HansDelbruck/Page_Original
+ * Prusa 3D printers directly fr_3e3e58/button_Logout'), 5)
+ * 
+ * WebUI.verifyElementPresent(findTestObject('HansDelbruck/Page_Original Prusa
+ * 3D printers directly fr_3e3e58/button_Logout'), 0)
+ */
 

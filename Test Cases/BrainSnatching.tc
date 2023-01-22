@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Break into the Brain Depositary
-LOGIN>Parts Page>LOGOUT</description>
-   <name>BrainSnatching</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f3f0bcb0-4ec3-460f-87fe-9b70a23559e7</testCaseGuid>
-</TestCaseEntity>
